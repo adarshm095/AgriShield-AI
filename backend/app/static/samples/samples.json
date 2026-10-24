@@ -1,0 +1,72 @@
+[
+  {
+    "id": "tomato_early_blight",
+    "title": "Tomato Early Blight",
+    "class_name": "Tomato___Early_blight",
+    "filename": "tomato_early_blight.jpg",
+    "url": "/static/samples/tomato_early_blight.jpg"
+  },
+  {
+    "id": "tomato_late_blight",
+    "title": "Tomato Late Blight",
+    "class_name": "Tomato___Late_blight",
+    "filename": "tomato_late_blight.jpg",
+    "url": "/static/samples/tomato_late_blight.jpg"
+  },
+  {
+    "id": "tomato_healthy",
+    "title": "Tomato Healthy",
+    "class_name": "Tomato___healthy",
+    "filename": "tomato_healthy.jpg",
+    "url": "/static/samples/tomato_healthy.jpg"
+  },
+  {
+    "id": "apple_scab",
+    "title": "Apple Scab",
+    "class_name": "Apple___Apple_scab",
+    "filename": "apple_scab.jpg",
+    "url": "/static/samples/apple_scab.jpg"
+  },
+  {
+    "id": "corn_common_rust",
+    "title": "Corn Common Rust",
+    "class_name": "Corn_(maize)___Common_rust_",
+    "filename": "corn_common_rust.jpg",
+    "url": "/static/samples/corn_common_rust.jpg"
+  },
+  {
+    "id": "grape_black_rot",
+    "title": "Grape Black Rot",
+    "class_name": "Grape___Black_rot",
+    "filename": "grape_black_rot.jpg",
+    "url": "/static/samples/grape_black_rot.jpg"
+  },
+  {
+    "id": "citrus_greening",
+    "title": "Citrus Greening",
+    "class_name": "Orange___Haunglongbing_(Citrus_greening)",
+    "filename": "citrus_greening.jpg",
+    "url": "/static/samples/citrus_greening.jpg"
+  },
+  {
+    "id": "potato_late_blight",
+    "title": "Potato Late Blight",
+    "class_name": "Potato___Late_blight",
+    "filename": "potato_late_blight.jpg",
+    "url": "/static/samples/potato_late_blight.jpg"
+  },
+  {
+    "id": "pepper_bacterial_spot",
+    "title": "Pepper Bacterial Spot",
+    "class_name": "Pepper,_bell___Bacterial_spot",
+    "filename": "pepper_bacterial_spot.jpg",
+    "url": "/static/samples/pepper_bacterial_spot.jpg"
+  },
+  {
+    "id": "strawberry_leaf_scorch",
+    "title": "Strawberry Leaf Scorch",
+    "class_name": "Strawberry___Leaf_scorch",
+    "filename": "strawberry_leaf_scorch.jpg",
+    "url": "/static/samples/strawberry_leaf_scorch.jpg"
+  }
+]

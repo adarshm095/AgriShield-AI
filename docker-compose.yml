@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  agrishield_api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: agrishield_api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - HOST=0.0.0.0
+      - MONGODB_URI=mongodb://mongodb:27017/agrishield_db
+    depends_on:
+      - mongodb
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  mongodb:
+    image: mongo:latest
+    container_name: agrishield_mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    command: mongod --quiet
+
+volumes:
+  mongo_data:
